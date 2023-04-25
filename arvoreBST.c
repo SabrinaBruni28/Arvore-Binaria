@@ -1,4 +1,4 @@
-#include "arvore.h"
+#include "arvoreBST.h"
 
 void Inicializa(Apontador* no){
     *no = NULL;
@@ -98,3 +98,4 @@ void Antecessor(Apontador no, Apontador* r){
     *r = (*r)->Esq;
     free(aux);
 }
+

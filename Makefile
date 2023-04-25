@@ -1,3 +1,3 @@
 make all:
-	gcc main.c arvore.c -o run
+	gcc main.c arvoreBST.c -o run
 	./run

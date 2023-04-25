@@ -1,4 +1,4 @@
-#include "arvore.h"
+#include "arvoreBST.h"
 
 int main(){
     Apontador no;
